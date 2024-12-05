@@ -1,0 +1,174 @@
+[
+  {
+    "ContainingType": "Oshop.Controllers.Auth",
+    "Method": "login",
+    "RelativePath": "Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "Oshop.Controllers.Auth\u002BLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oshop.Controllers.Auth",
+    "Method": "print",
+    "RelativePath": "Auth/print",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Oshop.Controllers.CategoryController",
+    "Method": "getCategory",
+    "RelativePath": "Category/getCategory",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oshop.Controllers.OrderController",
+    "Method": "GetOrders",
+    "RelativePath": "Order/GetOrders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oshop.Controllers.OrderController",
+    "Method": "SaveOrder",
+    "RelativePath": "Order/SaveOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "Oshop.Models.Order",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oshop.Controllers.SaveProductController",
+    "Method": "Delete",
+    "RelativePath": "SaveProduct/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oshop.Controllers.SaveProductController",
+    "Method": "GetProduct",
+    "RelativePath": "SaveProduct/GetProduct",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oshop.Controllers.SaveProductController",
+    "Method": "GetWithId",
+    "RelativePath": "SaveProduct/GetWithId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oshop.Controllers.SaveProductController",
+    "Method": "print",
+    "RelativePath": "SaveProduct/print",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Oshop.Controllers.SaveProductController",
+    "Method": "SaveProduct",
+    "RelativePath": "SaveProduct/SaveProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "Oshop.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Oshop.Controllers.SaveProductController",
+    "Method": "Update",
+    "RelativePath": "SaveProduct/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "Oshop.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
